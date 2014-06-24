@@ -9,7 +9,7 @@
 	 * file that was distributed with this source code.
 	 */
 
-	namespace arc\events;
+namespace arc\events;
 
 	/**
 	*	This object is returned for each event you listen for. It allows you to specifically remove 

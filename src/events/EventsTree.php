@@ -9,7 +9,7 @@
 	 * file that was distributed with this source code.
 	 */
 
-	namespace arc\events;
+namespace arc\events;
 
 	/**
 	*	This class implements an event stack on which listeners can be added and removed and events can be fired.

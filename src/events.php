@@ -9,7 +9,7 @@
 	 * file that was distributed with this source code.
 	 */
 
-	namespace arc;
+namespace arc;
 
 	/**
 	 *	This component implements an event system very similar to events in modern browsers. Events have 
