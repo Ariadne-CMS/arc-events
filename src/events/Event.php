@@ -9,7 +9,7 @@
 	 * file that was distributed with this source code.
 	 */
 
-	namespace arc\events;
+namespace arc\events;
 
 	/**
 	*	The event object that is passed to each listener. May contain extra information in the 'data' property.
