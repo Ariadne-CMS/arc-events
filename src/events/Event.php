@@ -56,12 +56,12 @@ final class Event
     public function __get($name)
     {
         switch ($name) {
-        case 'preventDefault':
-            return $this->preventDefault;
-            break;
-        case 'name':
-            return $this->name;
-            break;
+            case 'preventDefault':
+                return $this->preventDefault;
+                break;
+            case 'name':
+                return $this->name;
+                break;
         }
     }
 }
