@@ -130,7 +130,7 @@ class EventsTree implements EventsTreeInterface
      */
     private function walkListeners($event)
     {
-        $callListeners = function ($listeners, $result = null) use ($event) {
+        $callListeners = function ($listeners) use ($event) {
             foreach ((array) $listeners as $listener) {
                 $result = call_user_func( $listener['method'], $event );
                 if ($result === false) {
