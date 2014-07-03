@@ -20,5 +20,4 @@ interface EventsTreeInterface
     public function fire( $eventName, $eventData = array() );
 
     public function cd( $path );
-
 }
