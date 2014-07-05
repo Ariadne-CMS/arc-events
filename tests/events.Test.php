@@ -11,7 +11,7 @@
 
     require_once( __DIR__ . DIRECTORY_SEPARATOR . 'bootstrap.php' );
 
-    class TestEvents extends UnitTestCase
+    class TestEvents extends PHPUnit_Framework_TestCase
     {
         function testFireListenRemove()
         {
